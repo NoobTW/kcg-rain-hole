@@ -1,0 +1,19 @@
+#map{
+	width: 100vw;
+	height: 80vh;
+}
+
+header{
+	padding: 1rem;
+}
+
+#go{
+	display: inline-block;
+	border: 1px solid #333;
+	cursor: pointer;
+	padding: .5rem;
+}
+
+#go:hover{
+	background: #ccc;
+}
