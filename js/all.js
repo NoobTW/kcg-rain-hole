@@ -85,7 +85,6 @@ function showRain(){
 				var sum = 0;
 				var rainChart = [];
 				var dateChart = [];
-				console.log(zipName, layer.feature.properties.T_Name)
 				Object.keys(rain).forEach(hour => {
 					if(moment(hour).unix() >= moment(startDate).unix() && moment(hour).unix() <= moment(endDate).unix()){
 						count++;
@@ -96,8 +95,8 @@ function showRain(){
 						}
 					}
 				});
-				if(zipName !== '全選'){
-					console.log(rainChart);
+				if(zipName !== '全選' && dateChart.length){
+					if(chart) chart.destroy();
 					console.log(dateChart);
 					chart = new Chart($('#chart'), {
 						type: 'bar',
@@ -117,7 +116,6 @@ function showRain(){
 				if(avgRain < minRain) minRain = avgRain;
 				console.log('loading rain:' + Object.keys(zipRain).length + '/' + 36);
 				if(Object.keys(zipRain).length === 36){
-					console.log(zipRain)
 					mapData.eachLayer(layer => {
 						var zip = layer.feature.properties.T_Name;
 						var scale = chroma.scale(['white', '#D00000']);
