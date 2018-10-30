@@ -93,19 +93,18 @@ function showRain(){
 						if(zipName === layer.feature.properties.T_Name){
 							rainChart.push(parseInt(rain[hour], 10));
 							dateChart.push(hour);
-							colorsForChart.push(dynamicColors());
+							colorsForChart.push('#ff4500');
 						}
 					}
 				});
 				if(zipName !== '全選' && dateChart.length){
 					if(chart) chart.destroy();
-					console.log(dateChart);
 					chart = new Chart($('#chart'), {
 						type: 'bar',
 						data: {
 							labels: dateChart,
 							datasets: [{
-								label: 'rains',
+								label: layer.feature.properties.T_Name + '日雨量',
 								data: rainChart,
 								backgroundColor: colorsForChart
 							}]
@@ -131,6 +130,25 @@ function showRain(){
 							fillOpacity: 0.7,
 						});
 					});
+
+					if(zipName === '全選'){
+						if(chart) chart.destroy();
+
+						chart = new Chart($('#chart'), {
+							type: 'bar',
+							data: {
+								labels: Object.keys(zipRain),
+								datasets: [{
+									label: '高雄市各地區平均日雨量',
+									data: Object.values(zipRain),
+									backgroundColor: Object.values(zipRain).map(x => '#FF4500')
+								}]
+							},
+							options: {
+								maintainAspectRatio: false
+							}
+						});
+					}
 				}
 			});
 		}
@@ -141,10 +159,3 @@ $('#go').on('click', () => {
 	showMarker();
 	showRain();
 });
-
-var dynamicColors = function() {
-	var r = Math.floor(Math.random() * 255);
-	var g = Math.floor(Math.random() * 255);
-	var b = Math.floor(Math.random() * 255);
-	return "rgb(" + r + "," + g + "," + b + ")";
- };
