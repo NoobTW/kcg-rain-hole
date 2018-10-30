@@ -1,6 +1,7 @@
 var map;
-var markers = [];
-var mapData;
+var markers = []; // 坑洞 marker
+var mapData; // GeoJSON 邊界資料
+var zipToStation = {} // 行政區與測站對應資料
 
 // 宣告 map
 map = L.map('map').setView([22.9185024, 120.5786888], 9);
@@ -10,7 +11,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // 讀取資料，存在 markers[] 裡面
-$.getJSON('./js/final.json', function(data){
+$.getJSON('./js/final.json', (data) => {
 	Array.from(data).forEach(event => {
 		if(event.lat !== 'NULL'){
 			var marker = L.marker([event.lat, event.lng], {
@@ -30,11 +31,18 @@ $.getJSON('./js/final.json', function(data){
 });
 
 // 讀取行政區邊界
-$.getJSON('https://1999.noob.tw/data/kaohsiung.json', function(r){
+$.getJSON('https://1999.noob.tw/data/kaohsiung.json', (r) => {
 	mapData = L.geoJSON(r, {color: '#333', weight: 0.7}).addTo(map);
+	if(mapData && zipToStation) showRain();
 });
 
-// 顯示 marker
+// 讀取行政區測站對應資料
+$.getJSON('./ForTest/test.json', (r) => {
+	zipToStation = r;
+	if(mapData && zipToStation) showRain();
+});
+
+// 顯示坑洞 marker
 function showMarker(){
 	var startDate = $('#start').val() + ' 00:00:00';
 	var endDate = $('#end').val() + ' 23:59:59';
@@ -58,6 +66,50 @@ function showMarker(){
 	});
 }
 
+// 顯示雨量
+function showRain(){
+	var startDate = $('#start').val() + ' 00:00:00';
+	var endDate = $('#end').val() + ' 23:59:59';
+
+	var zipRain = {};
+	var maxRain = Number.MIN_SAFE_INTEGER;
+	var minRain = Number.MAX_SAFE_INTEGER;
+
+	mapData.eachLayer(layer => {
+		var stationData = zipToStation[layer.feature.properties.T_Name];
+		if(stationData){
+			$.getJSON('./ForTest/' + stationData, rain => {
+				var count = 0;
+				var sum = 0;
+				Object.keys(rain).forEach(hour => {
+					if(moment(hour).unix() >= moment(startDate).unix() && moment(hour).unix() <= moment(endDate).unix()){
+						count++;
+						sum += parseInt(rain[hour], 10);
+					}
+				});
+				var avgRain = sum / count;
+				zipRain[layer.feature.properties.T_Name] = avgRain;
+				if(avgRain > maxRain) maxRain = avgRain;
+				if(avgRain < minRain) minRain = avgRain;
+				console.log('loading rain:' + Object.keys(zipRain).length + '/' + 36);
+				if(Object.keys(zipRain).length === 36){
+					console.log(zipRain)
+					mapData.eachLayer(layer => {
+						var zip = layer.feature.properties.T_Name;
+						var scale = chroma.scale(['white', '#D00000']);
+						var color = scale((zipRain[zip] - minRain) / maxRain).hex();
+						layer.setStyle({
+							fillColor: color,
+							fillOpacity: 0.7,
+						});
+					});
+				}
+			});
+		}
+	});
+}
+
 $('#go').on('click', () => {
 	showMarker();
+	showRain();
 });
