@@ -2,6 +2,7 @@ var map;
 var markers = []; // 坑洞 marker
 var mapData; // GeoJSON 邊界資料
 var zipToStation = {} // 行政區與測站對應資料
+var chart;
 
 // 宣告 map
 map = L.map('map').setView([22.9185024, 120.5786888], 9);
@@ -37,7 +38,7 @@ $.getJSON('https://1999.noob.tw/data/kaohsiung.json', (r) => {
 });
 
 // 讀取行政區測站對應資料
-$.getJSON('./ForTest/test.json', (r) => {
+$.getJSON('./Mapping/regMap.json', (r) => {
 	zipToStation = r;
 	if(mapData && zipToStation) showRain();
 });
@@ -70,6 +71,7 @@ function showMarker(){
 function showRain(){
 	var startDate = $('#start').val() + ' 00:00:00';
 	var endDate = $('#end').val() + ' 23:59:59';
+	var zipName = $('#zipName').val();
 
 	var zipRain = {};
 	var maxRain = Number.MIN_SAFE_INTEGER;
@@ -78,15 +80,37 @@ function showRain(){
 	mapData.eachLayer(layer => {
 		var stationData = zipToStation[layer.feature.properties.T_Name];
 		if(stationData){
-			$.getJSON('./ForTest/' + stationData, rain => {
+			$.getJSON('./Mapping/' + stationData + '.json', rain => {
 				var count = 0;
 				var sum = 0;
+				var rainChart = [];
+				var dateChart = [];
+				console.log(zipName, layer.feature.properties.T_Name)
 				Object.keys(rain).forEach(hour => {
 					if(moment(hour).unix() >= moment(startDate).unix() && moment(hour).unix() <= moment(endDate).unix()){
 						count++;
 						sum += parseInt(rain[hour], 10);
+						if(zipName === layer.feature.properties.T_Name){
+							rainChart.push(parseInt(rain[hour], 10));
+							dateChart.push(hour);
+						}
 					}
 				});
+				if(zipName !== '全選'){
+					console.log(rainChart);
+					console.log(dateChart);
+					chart = new Chart($('#chart'), {
+						type: 'bar',
+						data: {
+							labels: dateChart,
+							datasets: [{
+								label: 'rains',
+								data: rainChart,
+							}]
+						}
+					});
+				}
+
 				var avgRain = sum / count;
 				zipRain[layer.feature.properties.T_Name] = avgRain;
 				if(avgRain > maxRain) maxRain = avgRain;
@@ -97,7 +121,7 @@ function showRain(){
 					mapData.eachLayer(layer => {
 						var zip = layer.feature.properties.T_Name;
 						var scale = chroma.scale(['white', '#D00000']);
-						var color = scale((zipRain[zip] - minRain) / maxRain).hex();
+						var color = scale((zipRain[zip] - 1) / 400).hex();
 						layer.setStyle({
 							fillColor: color,
 							fillOpacity: 0.7,
