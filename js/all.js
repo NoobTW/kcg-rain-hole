@@ -22,6 +22,7 @@ $.getJSON('./js/final.json', function(data){
 			marker.lng = event.lng;
 			marker.fileNo = event.fileNo;
 			marker.cre_Date = event.cre_Date;
+			marker.zipName = event.zipName;
 			markers.push(marker);
 		}
 	});
@@ -37,15 +38,22 @@ $.getJSON('https://1999.noob.tw/data/kaohsiung.json', function(r){
 function showMarker(){
 	var startDate = $('#start').val() + ' 00:00:00';
 	var endDate = $('#end').val() + ' 23:59:59';
+	var zipName = $('#zipName').val();
 
 	Array.from(markers).forEach(m => {
-		// console.log(m);
-		// console.log(map);
 		var timestamp = moment(m.cre_Date).unix();
-		if(timestamp >= moment(startDate).unix() && timestamp <= moment(endDate).unix()){
-			m.addTo(map);
+		if(zipName === '全選'){
+			if(timestamp >= moment(startDate).unix() && timestamp <= moment(endDate).unix()){
+				m.addTo(map);
+			}else{
+				map.removeLayer(m);
+			}
 		}else{
-			map.removeLayer(m);
+			if(timestamp >= moment(startDate).unix() && timestamp <= moment(endDate).unix() && m.zipName === zipName){
+				m.addTo(map);
+			}else{
+				map.removeLayer(m);
+			}
 		}
 	});
 }
