@@ -85,6 +85,7 @@ function showRain(){
 				var sum = 0;
 				var rainChart = [];
 				var dateChart = [];
+				var colorsForChart = [];
 				Object.keys(rain).forEach(hour => {
 					if(moment(hour).unix() >= moment(startDate).unix() && moment(hour).unix() <= moment(endDate).unix()){
 						count++;
@@ -92,6 +93,7 @@ function showRain(){
 						if(zipName === layer.feature.properties.T_Name){
 							rainChart.push(parseInt(rain[hour], 10));
 							dateChart.push(hour);
+							colorsForChart.push(dynamicColors());
 						}
 					}
 				});
@@ -105,7 +107,11 @@ function showRain(){
 							datasets: [{
 								label: 'rains',
 								data: rainChart,
+								backgroundColor: colorsForChart
 							}]
+						},
+						options: {
+							maintainAspectRatio: false
 						}
 					});
 				}
@@ -135,3 +141,10 @@ $('#go').on('click', () => {
 	showMarker();
 	showRain();
 });
+
+var dynamicColors = function() {
+	var r = Math.floor(Math.random() * 255);
+	var g = Math.floor(Math.random() * 255);
+	var b = Math.floor(Math.random() * 255);
+	return "rgb(" + r + "," + g + "," + b + ")";
+ };
