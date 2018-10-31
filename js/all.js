@@ -1,11 +1,13 @@
 var map;
 var markers = []; // 坑洞 marker
 var mapData; // GeoJSON 邊界資料
-var zipToStation = {} // 行政區與測站對應資料
+var zipToStation = {}; // 行政區與測站對應資料
 var chart;
+var mapCenter = [22.9185024, 120.5786888];
+var zipCenter = []; // 行政區中心
 
 // 宣告 map
-map = L.map('map').setView([22.9185024, 120.5786888], 9);
+map = L.map('map').setView(mapCenter, 9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '<a href="https://www.openstreetmap.org/">OSM</a>',
 	maxZoom: 18,
@@ -41,6 +43,11 @@ $.getJSON('https://1999.noob.tw/data/kaohsiung.json', (r) => {
 $.getJSON('./Mapping/regMap.json', (r) => {
 	zipToStation = r;
 	if(mapData && zipToStation) showRain();
+});
+
+// 讀取各行政區中心
+$.getJSON('./js/center.json', (r) => {
+	zipCenter = r;
 });
 
 // 顯示坑洞 marker
@@ -119,7 +126,7 @@ function showRain(){
 				zipRain[layer.feature.properties.T_Name] = avgRain;
 				if(avgRain > maxRain) maxRain = avgRain;
 				if(avgRain < minRain) minRain = avgRain;
-				console.log('loading rain:' + Object.keys(zipRain).length + '/' + 36);
+				// console.log('loading rain:' + Object.keys(zipRain).length + '/' + 36);
 				if(Object.keys(zipRain).length === 36){
 					mapData.eachLayer(layer => {
 						var zip = layer.feature.properties.T_Name;
@@ -155,7 +162,19 @@ function showRain(){
 	});
 }
 
+function showCenter(){
+	var zipName = $('#zipName').val();
+
+	if(zipName === '全選'){
+		map.setView(new L.LatLng(mapCenter[0], mapCenter[1]), 9);
+	}else{
+		var position = zipCenter.find(x => x.name === zipName);
+		map.setView(new L.LatLng(position.lat, position.lng), 12);
+	}
+}
+
 $('#go').on('click', () => {
 	showMarker();
 	showRain();
+	showCenter();
 });
