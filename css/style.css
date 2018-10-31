@@ -7,14 +7,14 @@ header{
 	padding: 1rem;
 }
 
-#go{
+.button{
 	display: inline-block;
 	border: 1px solid #333;
 	cursor: pointer;
 	padding: .5rem;
 }
 
-#go:hover{
+.button:hover{
 	background: #ccc;
 }
 
@@ -25,4 +25,28 @@ header{
 .chart{
 	width: 100vw;
 	height: calc(100vh - 70vh - 5rem);
+}
+
+.marker{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	/* font-weight: 800; */
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.marker-before{
+	background: lightblue;
+}
+
+.marker-after{
+	background: yellow;
+}
+
+h1{
+	display: inline-block;
+	margin: 0 1rem 0 0;
 }

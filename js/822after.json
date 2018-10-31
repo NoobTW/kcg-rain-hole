@@ -1,0 +1,1698 @@
+[
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180822206",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-22 15:49",
+	  "lat": 22.637666,
+	  "lng": 120.303438
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823062",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 09:04",
+	  "lat": 22.637582,
+	  "lng": 120.301288
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823369",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 14:54",
+	  "lat": 22.637741,
+	  "lng": 120.304629
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823397",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 15:39",
+	  "lat": 22.637582,
+	  "lng": 120.301288
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823409",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 15:58",
+	  "lat": 22.637534,
+	  "lng": 120.306561
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823436",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 16:35",
+	  "lat": 22.63759,
+	  "lng": 120.30121
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823506",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 18:19",
+	  "lat": 22.637716,
+	  "lng": 120.302681
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823513",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 18:32",
+	  "lat": 22.637755,
+	  "lng": 120.304508
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180823590",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 21:05",
+	  "lat": 22.63778,
+	  "lng": 120.306498
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180824066",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 08:34",
+	  "lat": 22.636926,
+	  "lng": 120.308492
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180824087",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 09:41",
+	  "lat": 22.637536,
+	  "lng": 120.308709
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180824135",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 10:52",
+	  "lat": 22.63778,
+	  "lng": 120.306498
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180824638",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 23:20",
+	  "lat": 22.637197,
+	  "lng": 120.302381
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825265",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 13:15",
+	  "lat": 22.63778,
+	  "lng": 120.306498
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825272",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 13:30",
+	  "lat": 22.637536,
+	  "lng": 120.308709
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825291",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 13:52",
+	  "lat": 22.637467,
+	  "lng": 120.305956
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825373",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 16:11",
+	  "lat": 22.637197,
+	  "lng": 120.302381
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825420",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 17:25",
+	  "lat": 22.637393,
+	  "lng": 120.307827
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825422",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 17:27",
+	  "lat": 22.63671,
+	  "lng": 120.306386
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825423",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 17:28",
+	  "lat": 22.63754,
+	  "lng": 120.306575
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825424",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 17:30",
+	  "lat": 22.637383,
+	  "lng": 120.305411
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825425",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 17:31",
+	  "lat": 22.637666,
+	  "lng": 120.303438
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180825460",
+	  "zipName": "新興區",
+	  "cre_Date": "2018-08-25 18:37",
+	  "lat": 22.637035,
+	  "lng": 120.302248
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180826028",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-26 01:44",
+	  "lat": 22.637666,
+	  "lng": 120.303438
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180826055",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-26 09:23",
+	  "lat": 22.637253,
+	  "lng": 120.308829
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180827100",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 09:29",
+	  "lat": 22.637253,
+	  "lng": 120.308829
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180827138",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 10:36",
+	  "lat": 22.637536,
+	  "lng": 120.308709
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180827428",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-27 19:41",
+	  "lat": 22.637197,
+	  "lng": 120.302381
+	},
+	{
+	  "clusterId": 6,
+	  "fileNo": "INS180828242",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 12:59",
+	  "lat": 22.637536,
+	  "lng": 120.308709
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180822114",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-22 11:17",
+	  "lat": 22.667197,
+	  "lng": 120.321176
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180824309",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 15:44",
+	  "lat": 22.666928,
+	  "lng": 120.322208
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180824379",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 17:07",
+	  "lat": 22.665128,
+	  "lng": 120.320693
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180824404",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 17:29",
+	  "lat": 22.661851,
+	  "lng": 120.321882
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180824417",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 17:49",
+	  "lat": 22.661851,
+	  "lng": 120.321882
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180824554",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 20:48",
+	  "lat": 22.665128,
+	  "lng": 120.320693
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827143",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 10:49",
+	  "lat": 22.665128,
+	  "lng": 120.320693
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827155",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 11:15",
+	  "lat": 22.660742,
+	  "lng": 120.32234
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827156",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 11:15",
+	  "lat": 22.662598,
+	  "lng": 120.321717
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827164",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 11:20",
+	  "lat": 22.6642,
+	  "lng": 120.321969
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827214",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 13:16",
+	  "lat": 22.665794,
+	  "lng": 120.321673
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827459",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 20:27",
+	  "lat": 22.664877,
+	  "lng": 120.321858
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180827534",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 23:28",
+	  "lat": 22.664474,
+	  "lng": 120.321966
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180828095",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 08:40",
+	  "lat": 22.661851,
+	  "lng": 120.321882
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180828096",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 08:40",
+	  "lat": 22.661851,
+	  "lng": 120.321882
+	},
+	{
+	  "clusterId": 17,
+	  "fileNo": "INS180828219",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 11:40",
+	  "lat": 22.663118,
+	  "lng": 120.32158
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180823389",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-23 15:31",
+	  "lat": 22.626008,
+	  "lng": 120.344334
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180824095",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-24 09:48",
+	  "lat": 22.625134,
+	  "lng": 120.345448
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180824096",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-24 09:49",
+	  "lat": 22.625068,
+	  "lng": 120.345092
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180824113",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-24 10:08",
+	  "lat": 22.624876,
+	  "lng": 120.344318
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180824129",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-24 10:36",
+	  "lat": 22.625134,
+	  "lng": 120.345448
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180824573",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-24 21:24",
+	  "lat": 22.626008,
+	  "lng": 120.344334
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180825005",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-25 00:09",
+	  "lat": 22.624631,
+	  "lng": 120.342295
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180825167",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-25 10:51",
+	  "lat": 22.624631,
+	  "lng": 120.342295
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180826367",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-26 21:39",
+	  "lat": 22.626008,
+	  "lng": 120.344334
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180826370",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-26 21:48",
+	  "lat": 22.626008,
+	  "lng": 120.344334
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180827370",
+	  "zipName": "鳳山區",
+	  "cre_Date": "2018-08-27 17:56",
+	  "lat": 22.624876,
+	  "lng": 120.344318
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180827426",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-27 19:36",
+	  "lat": 22.626005,
+	  "lng": 120.342271
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180827499",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-27 21:50",
+	  "lat": 22.626005,
+	  "lng": 120.342271
+	},
+	{
+	  "clusterId": 9,
+	  "fileNo": "INS180828227",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-28 11:54",
+	  "lat": 22.624907,
+	  "lng": 120.343083
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825009",
+	  "zipName": "鹽埕區",
+	  "cre_Date": "2018-08-25 00:28",
+	  "lat": 22.664057,
+	  "lng": 120.361615
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825237",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:49",
+	  "lat": 22.664296,
+	  "lng": 120.363545
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825238",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:50",
+	  "lat": 22.6639,
+	  "lng": 120.363718
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825240",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:52",
+	  "lat": 22.664038,
+	  "lng": 120.363721
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825241",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:53",
+	  "lat": 22.665202,
+	  "lng": 120.363384
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825244",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:56",
+	  "lat": 22.662748,
+	  "lng": 120.364063
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825247",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:58",
+	  "lat": 22.663567,
+	  "lng": 120.363221
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825249",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:59",
+	  "lat": 22.663953,
+	  "lng": 120.363101
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825250",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:59",
+	  "lat": 22.663795,
+	  "lng": 120.363144
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825251",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 13:01",
+	  "lat": 22.663472,
+	  "lng": 120.363199
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825252",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 13:02",
+	  "lat": 22.663315,
+	  "lng": 120.363209
+	},
+	{
+	  "clusterId": 20,
+	  "fileNo": "INS180825276",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 13:40",
+	  "lat": 22.663223,
+	  "lng": 120.362388
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180822025",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-22 08:07",
+	  "lat": 22.732429,
+	  "lng": 120.342534
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180822224",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-22 16:11",
+	  "lat": 22.732429,
+	  "lng": 120.342534
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180823443",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-23 16:44",
+	  "lat": 22.732119,
+	  "lng": 120.341463
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180824103",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-24 09:53",
+	  "lat": 22.732289,
+	  "lng": 120.343656
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180825057",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-25 08:20",
+	  "lat": 22.731866,
+	  "lng": 120.340459
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180826115",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-26 11:21",
+	  "lat": 22.731866,
+	  "lng": 120.340459
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180826116",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-26 11:21",
+	  "lat": 22.731866,
+	  "lng": 120.340459
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180827076",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-27 09:12",
+	  "lat": 22.731819,
+	  "lng": 120.340937
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180828142",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-28 09:50",
+	  "lat": 22.730942,
+	  "lng": 120.342616
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180828365",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-28 17:38",
+	  "lat": 22.732429,
+	  "lng": 120.342534
+	},
+	{
+	  "clusterId": 1,
+	  "fileNo": "INS180828367",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-28 17:43",
+	  "lat": 22.732429,
+	  "lng": 120.342534
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180822099",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 10:38",
+	  "lat": 22.72315,
+	  "lng": 120.297903
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180822116",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 11:24",
+	  "lat": 22.72315,
+	  "lng": 120.297903
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180822138",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 12:24",
+	  "lat": 22.72315,
+	  "lng": 120.297903
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180823566",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-23 20:19",
+	  "lat": 22.72315,
+	  "lng": 120.297903
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180824283",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-24 14:58",
+	  "lat": 22.72414,
+	  "lng": 120.297327
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180824602",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-24 22:00",
+	  "lat": 22.72382,
+	  "lng": 120.297697
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180825016",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 01:10",
+	  "lat": 22.72414,
+	  "lng": 120.297327
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180825027",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 03:15",
+	  "lat": 22.72382,
+	  "lng": 120.297697
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180825029",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 03:21",
+	  "lat": 22.72414,
+	  "lng": 120.297327
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180825033",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 04:21",
+	  "lat": 22.72414,
+	  "lng": 120.297327
+	},
+	{
+	  "clusterId": 2,
+	  "fileNo": "INS180825213",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 11:52",
+	  "lat": 22.72382,
+	  "lng": 120.297697
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180822364",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-22 23:58",
+	  "lat": 22.72451,
+	  "lng": 120.344597
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180824225",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-24 13:34",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180824227",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-24 13:36",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180825093",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-25 09:25",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180825119",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-25 09:55",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180825123",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-25 09:59",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180825124",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-25 10:00",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180825128",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-25 10:03",
+	  "lat": 22.723749,
+	  "lng": 120.344636
+	},
+	{
+	  "clusterId": 7,
+	  "fileNo": "INS180828145",
+	  "zipName": "大社區",
+	  "cre_Date": "2018-08-28 09:52",
+	  "lat": 22.724521,
+	  "lng": 120.344466
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180823085",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-23 10:09",
+	  "lat": 22.730658,
+	  "lng": 120.335035
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180823587",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-23 20:53",
+	  "lat": 22.72988,
+	  "lng": 120.333819
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180824541",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-24 20:28",
+	  "lat": 22.729837,
+	  "lng": 120.333512
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180825294",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 13:53",
+	  "lat": 22.72988,
+	  "lng": 120.333819
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180826147",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-26 12:33",
+	  "lat": 22.73215,
+	  "lng": 120.334767
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180827163",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-27 11:20",
+	  "lat": 22.729397,
+	  "lng": 120.335015
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180827512",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-27 22:19",
+	  "lat": 22.728893,
+	  "lng": 120.333697
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180827524",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-27 22:52",
+	  "lat": 22.72988,
+	  "lng": 120.333819
+	},
+	{
+	  "clusterId": 12,
+	  "fileNo": "INS180828399",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-28 18:41",
+	  "lat": 22.730688,
+	  "lng": 120.334777
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180822144",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-22 13:00",
+	  "lat": 22.681115,
+	  "lng": 120.35528
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180822151",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-22 13:48",
+	  "lat": 22.682728,
+	  "lng": 120.356486
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180823390",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-23 15:31",
+	  "lat": 22.681115,
+	  "lng": 120.35528
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180824131",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-24 10:45",
+	  "lat": 22.681907,
+	  "lng": 120.355988
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180825224",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-25 12:20",
+	  "lat": 22.681115,
+	  "lng": 120.35528
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180826222",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-26 15:43",
+	  "lat": 22.681115,
+	  "lng": 120.35528
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180828261",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-28 14:01",
+	  "lat": 22.681665,
+	  "lng": 120.355253
+	},
+	{
+	  "clusterId": 3,
+	  "fileNo": "INS180828262",
+	  "zipName": "仁武區",
+	  "cre_Date": "2018-08-28 14:01",
+	  "lat": 22.680543,
+	  "lng": 120.353905
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180823282",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-23 12:51",
+	  "lat": 22.565403,
+	  "lng": 120.342962
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180823283",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-23 12:52",
+	  "lat": 22.565366,
+	  "lng": 120.341256
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180823310",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-23 13:27",
+	  "lat": 22.565494,
+	  "lng": 120.341456
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180824246",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-24 13:57",
+	  "lat": 22.565494,
+	  "lng": 120.341456
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180824422",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-24 18:02",
+	  "lat": 22.565366,
+	  "lng": 120.341256
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180824486",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-24 19:24",
+	  "lat": 22.565366,
+	  "lng": 120.341256
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180825010",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-25 00:30",
+	  "lat": 22.565541,
+	  "lng": 120.341906
+	},
+	{
+	  "clusterId": 8,
+	  "fileNo": "INS180827387",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-27 18:30",
+	  "lat": 22.565366,
+	  "lng": 120.341256
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180823444",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-23 16:44",
+	  "lat": 22.659839,
+	  "lng": 120.371867
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180824354",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-24 16:41",
+	  "lat": 22.659452,
+	  "lng": 120.37161
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180824578",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-24 21:27",
+	  "lat": 22.659716,
+	  "lng": 120.370129
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180825228",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:37",
+	  "lat": 22.659516,
+	  "lng": 120.372739
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180825230",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:39",
+	  "lat": 22.659605,
+	  "lng": 120.371919
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180825231",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:40",
+	  "lat": 22.659839,
+	  "lng": 120.371867
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180825232",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:41",
+	  "lat": 22.660027,
+	  "lng": 120.371255
+	},
+	{
+	  "clusterId": 16,
+	  "fileNo": "INS180825233",
+	  "zipName": "鳥松區",
+	  "cre_Date": "2018-08-25 12:43",
+	  "lat": 22.659792,
+	  "lng": 120.370285
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180822011",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 06:24",
+	  "lat": 22.701331,
+	  "lng": 120.323586
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180822016",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 07:27",
+	  "lat": 22.701331,
+	  "lng": 120.323586
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180822181",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 15:00",
+	  "lat": 22.701331,
+	  "lng": 120.323586
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180822239",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 16:55",
+	  "lat": 22.701331,
+	  "lng": 120.323586
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180824582",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-24 21:31",
+	  "lat": 22.702174,
+	  "lng": 120.324151
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180825351",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 15:30",
+	  "lat": 22.701843,
+	  "lng": 120.323549
+	},
+	{
+	  "clusterId": 0,
+	  "fileNo": "INS180827057",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-27 08:54",
+	  "lat": 22.701565,
+	  "lng": 120.323873
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180822164",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 14:26",
+	  "lat": 22.718354,
+	  "lng": 120.285902
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180822166",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-22 14:30",
+	  "lat": 22.718354,
+	  "lng": 120.285902
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180823393",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-23 15:34",
+	  "lat": 22.718282,
+	  "lng": 120.284881
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180825019",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 01:25",
+	  "lat": 22.718282,
+	  "lng": 120.284881
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180825020",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 01:30",
+	  "lat": 22.718282,
+	  "lng": 120.284881
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180825326",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 14:50",
+	  "lat": 22.717635,
+	  "lng": 120.285682
+	},
+	{
+	  "clusterId": 4,
+	  "fileNo": "INS180825435",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 17:37",
+	  "lat": 22.718282,
+	  "lng": 120.284881
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180822189",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-22 15:24",
+	  "lat": 22.660493,
+	  "lng": 120.31812
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180823353",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-23 14:23",
+	  "lat": 22.660529,
+	  "lng": 120.318122
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180825617",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 22:48",
+	  "lat": 22.659896,
+	  "lng": 120.318007
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180827216",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 13:19",
+	  "lat": 22.660529,
+	  "lng": 120.318122
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180828269",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 14:04",
+	  "lat": 22.661022,
+	  "lng": 120.318052
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180828301",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 15:05",
+	  "lat": 22.661022,
+	  "lng": 120.318052
+	},
+	{
+	  "clusterId": 5,
+	  "fileNo": "INS180828317",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-28 15:33",
+	  "lat": 22.661022,
+	  "lng": 120.318052
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180823488",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-23 17:39",
+	  "lat": 22.726185,
+	  "lng": 120.302818
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180823621",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-23 22:37",
+	  "lat": 22.726157,
+	  "lng": 120.301469
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180824517",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-24 19:57",
+	  "lat": 22.726382,
+	  "lng": 120.303549
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180825531",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 20:14",
+	  "lat": 22.726151,
+	  "lng": 120.304282
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180825571",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-25 21:17",
+	  "lat": 22.725513,
+	  "lng": 120.303879
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180826168",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-26 13:26",
+	  "lat": 22.726185,
+	  "lng": 120.302818
+	},
+	{
+	  "clusterId": 10,
+	  "fileNo": "INS180827344",
+	  "zipName": "楠梓區",
+	  "cre_Date": "2018-08-27 17:03",
+	  "lat": 22.726779,
+	  "lng": 120.302159
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180823554",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-23 19:47",
+	  "lat": 22.629701,
+	  "lng": 120.323854
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180824084",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-24 09:29",
+	  "lat": 22.629701,
+	  "lng": 120.323854
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180825320",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-25 14:37",
+	  "lat": 22.628811,
+	  "lng": 120.324069
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180827127",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-27 10:18",
+	  "lat": 22.628811,
+	  "lng": 120.324069
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180827130",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-27 10:20",
+	  "lat": 22.629189,
+	  "lng": 120.323832
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180827131",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-27 10:21",
+	  "lat": 22.628572,
+	  "lng": 120.324203
+	},
+	{
+	  "clusterId": 11,
+	  "fileNo": "INS180828137",
+	  "zipName": "苓雅區",
+	  "cre_Date": "2018-08-28 09:43",
+	  "lat": 22.629701,
+	  "lng": 120.323854
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824032",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 07:07",
+	  "lat": 22.659633,
+	  "lng": 120.308846
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824043",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 07:41",
+	  "lat": 22.659025,
+	  "lng": 120.308515
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824220",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 13:26",
+	  "lat": 22.659633,
+	  "lng": 120.308846
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824397",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 17:21",
+	  "lat": 22.659133,
+	  "lng": 120.308444
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824530",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 20:16",
+	  "lat": 22.659025,
+	  "lng": 120.308515
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824535",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 20:18",
+	  "lat": 22.658297,
+	  "lng": 120.308769
+	},
+	{
+	  "clusterId": 13,
+	  "fileNo": "INS180824553",
+	  "zipName": "左營區",
+	  "cre_Date": "2018-08-24 20:47",
+	  "lat": 22.658287,
+	  "lng": 120.308829
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180824233",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-24 13:41",
+	  "lat": 22.592635,
+	  "lng": 120.311949
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180824235",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-24 13:43",
+	  "lat": 22.593171,
+	  "lng": 120.311411
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180824243",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-24 13:50",
+	  "lat": 22.592007,
+	  "lng": 120.312161
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180825375",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-25 16:15",
+	  "lat": 22.591069,
+	  "lng": 120.313173
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180826112",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-26 11:12",
+	  "lat": 22.592434,
+	  "lng": 120.311234
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180826366",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-26 21:36",
+	  "lat": 22.591069,
+	  "lng": 120.313173
+	},
+	{
+	  "clusterId": 14,
+	  "fileNo": "INS180828187",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-28 10:42",
+	  "lat": 22.592009,
+	  "lng": 120.312161
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180824269",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-24 14:33",
+	  "lat": 22.622053,
+	  "lng": 120.290859
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180825413",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-25 17:13",
+	  "lat": 22.622053,
+	  "lng": 120.290859
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180825416",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-25 17:14",
+	  "lat": 22.622751,
+	  "lng": 120.290727
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180825457",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-25 18:37",
+	  "lat": 22.622751,
+	  "lng": 120.290727
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180825458",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-25 18:37",
+	  "lat": 22.622053,
+	  "lng": 120.290859
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180827090",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-27 09:23",
+	  "lat": 22.622751,
+	  "lng": 120.290727
+	},
+	{
+	  "clusterId": 15,
+	  "fileNo": "INS180827094",
+	  "zipName": "前金區",
+	  "cre_Date": "2018-08-27 09:24",
+	  "lat": 22.622053,
+	  "lng": 120.290859
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180824071",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 08:51",
+	  "lat": 22.645758,
+	  "lng": 120.325427
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180824267",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 14:31",
+	  "lat": 22.643729,
+	  "lng": 120.32648
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180824590",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 21:41",
+	  "lat": 22.643729,
+	  "lng": 120.32648
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180824631",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-24 23:03",
+	  "lat": 22.644638,
+	  "lng": 120.325987
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180825168",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-25 10:51",
+	  "lat": 22.645174,
+	  "lng": 120.325794
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180827404",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 19:00",
+	  "lat": 22.645174,
+	  "lng": 120.325794
+	},
+	{
+	  "clusterId": 18,
+	  "fileNo": "INS180827438",
+	  "zipName": "三民區",
+	  "cre_Date": "2018-08-27 19:57",
+	  "lat": 22.645489,
+	  "lng": 120.325582
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180824285",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-24 15:00",
+	  "lat": 22.577904,
+	  "lng": 120.323021
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180825122",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-25 09:58",
+	  "lat": 22.576831,
+	  "lng": 120.323969
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180825139",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-25 10:15",
+	  "lat": 22.576831,
+	  "lng": 120.323969
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180826063",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-26 09:39",
+	  "lat": 22.576215,
+	  "lng": 120.324514
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180826374",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-26 22:01",
+	  "lat": 22.576254,
+	  "lng": 120.323409
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180827483",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-27 21:19",
+	  "lat": 22.575959,
+	  "lng": 120.325034
+	},
+	{
+	  "clusterId": 19,
+	  "fileNo": "INS180827535",
+	  "zipName": "前鎮區",
+	  "cre_Date": "2018-08-27 23:33",
+	  "lat": 22.575948,
+	  "lng": 120.3247
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180822223",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-22 16:09",
+	  "lat": 22.57273,
+	  "lng": 120.371044
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180823038",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-23 08:01",
+	  "lat": 22.57273,
+	  "lng": 120.371044
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180824317",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-24 16:04",
+	  "lat": 22.575214,
+	  "lng": 120.371557
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180825548",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-25 20:47",
+	  "lat": 22.57273,
+	  "lng": 120.371044
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180825553",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-25 20:48",
+	  "lat": 22.573977,
+	  "lng": 120.371456
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180828164",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-28 10:15",
+	  "lat": 22.575296,
+	  "lng": 120.371581
+	},
+	{
+	  "clusterId": 21,
+	  "fileNo": "INS180828232",
+	  "zipName": "小港區",
+	  "cre_Date": "2018-08-28 12:08",
+	  "lat": 22.57273,
+	  "lng": 120.371044
+	}
+  ]
