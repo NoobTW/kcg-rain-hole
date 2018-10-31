@@ -4,9 +4,9 @@ var markersAll = {
 	after822: [],
 };
 var mapData;
-var mapCenter = [22.9185024, 120.5786888];
+var mapCenter = [22.6185024, 120.4086888];
 
-map = L.map('map').setView(mapCenter, 9);
+map = L.map('map').setView(mapCenter, 11);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '<a href="https://www.openstreetmap.org/">OSM</a>',
 	maxZoom: 18,

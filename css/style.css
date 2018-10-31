@@ -1,10 +1,29 @@
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
 #map{
 	width: 100vw;
-	height: 70vh;
+	height: 65vh;
+}
+
+.map_big{
+	height: 80vh !important;
 }
 
 header{
 	padding: 1rem;
+	background: #f0f0f0;
+}
+
+footer{
+	font-size: .8rem;
+	color: #333;
+	text-align: center;
+}
+
+footer a, footer a:visited{
+	color: inherit;
 }
 
 .button{
@@ -13,6 +32,7 @@ header{
 	cursor: pointer;
 	padding: .5rem;
 }
+
 
 .button:hover{
 	background: #ccc;
@@ -49,4 +69,14 @@ header{
 h1{
 	display: inline-block;
 	margin: 0 1rem 0 0;
+}
+
+#switch{
+	position: fixed;
+	top: .6rem;
+	right: 1rem;
+}
+
+#switch a, #switch a:visited{
+	color: inherit;
 }
