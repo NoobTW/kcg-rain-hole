@@ -2,7 +2,13 @@ var map;
 var markersAll = {
 	before822: [],
 	after822: [],
+	drops: [],
 };
+var isOnMap = {
+	before822: false,
+	after822: false,
+	drops: false,
+}
 var mapData;
 var mapCenter = [22.6185024, 120.4086888];
 
@@ -24,7 +30,6 @@ $.getJSON('./js/822before.json', r => {
 				html: '<span>' + m.clusterId + '</span>',
 				iconSize: [20, 20]
 			}),
-			iconSize: [40, 40]
 		});
 		markersAll.before822.push(marker);
 	});
@@ -39,36 +44,57 @@ $.getJSON('./js/822after.json', r => {
 				html: '<span>' + m.clusterId + '</span>',
 				iconSize: [20, 20]
 			}),
-			iconSize: [40, 40]
 		});
 		markersAll.after822.push(marker);
 	});
 });
 
+$.getJSON('./js/2018_drop.json', r => {
+	Array.from(r).forEach(m => {
+		var marker = new L.Marker([m.lat, m.lng], {
+			icon: new L.DivIcon({
+				className: 'marker marker-drop',
+				html: '<span></span>',
+				iconSize: [5, 5]
+			}),
+		});
+		markersAll.drops.push(marker);
+	});
+})
+
 
 function showMarkers(markers){
-	// console.log(markers)
+	if(isOnMap[markers]){
+		isOnMap[markers] = false;
+		$('#' + markers + ' span').removeClass('active');
+	}else{
+		isOnMap[markers] = true;
+		$('#' + markers + ' span').addClass('active');
+	}
 	Object.keys(markersAll).forEach(type => {
-		// console.log(type)
 		if(type === markers){
 			console.log(type);
 			Array.from(markersAll[type]).forEach(m => {
-				m.addTo(map);
-			});
-		}else{
-			Array.from(markersAll[type]).forEach(m => {
-				map.removeLayer(m);
+				if(isOnMap[markers]) {
+					m.addTo(map);
+				}else{
+					map.removeLayer(m);
+				}
 			});
 		}
-	})
+	});
 }
 
 $('#before822').on('click', () => {
-	$('h1').text('8/22 前坑洞群集')
+	// $('h1').text('8/22 前坑洞群集')
 	showMarkers('before822');
 });
 
 $('#after822').on('click', () => {
-	$('h1').text('8/22 後坑洞群集')
+	// $('h1').text('8/22 後坑洞群集')
 	showMarkers('after822');
+});
+
+$('#drops').on('click', () => {
+	showMarkers('drops');
 });

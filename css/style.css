@@ -33,7 +33,6 @@ footer a, footer a:visited{
 	padding: .5rem;
 }
 
-
 .button:hover{
 	background: #ccc;
 }
@@ -66,8 +65,34 @@ footer a, footer a:visited{
 	background: yellow;
 }
 
+.marker-drop{
+	background: rgba(255, 0, 0, 0.8)
+}
+
+span.label{
+	width: 5px;
+	height: 1rem;
+	background: transparent;
+	display: inline-block;
+	margin-right: .5rem;
+	vertical-align: bottom;
+}
+
+#before822 span.active{
+	background: lightblue;
+}
+
+#after822 span.active{
+	background: yellow;
+}
+
+#drops span.active{
+	background: rgba(255, 0, 0, 0.8);
+}
+
 h1{
 	display: inline-block;
+	font-size: 1.2rem;
 	margin: 0 1rem 0 0;
 }
 
