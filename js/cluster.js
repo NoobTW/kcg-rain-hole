@@ -11,6 +11,7 @@ var isOnMap = {
 }
 var mapData;
 var mapCenter = [22.6185024, 120.4086888];
+var chart;
 
 map = L.map('map').setView(mapCenter, 11);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -20,6 +21,12 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 $.getJSON('https://1999.noob.tw/data/kaohsiung.json', (r) => {
 	mapData = L.geoJSON(r, {color: '#333', weight: 0.7}).addTo(map);
+	if(mapData && zipToStation) showRain();
+});
+
+$.getJSON('./Mapping/regMap.json', (r) => {
+	zipToStation = r;
+	if(mapData && zipToStation) showRain();
 });
 
 $.getJSON('./js/822before.json', r => {
@@ -73,7 +80,6 @@ function showMarkers(markers){
 	}
 	Object.keys(markersAll).forEach(type => {
 		if(type === markers){
-			console.log(type);
 			Array.from(markersAll[type]).forEach(m => {
 				if(isOnMap[markers]) {
 					m.addTo(map);
@@ -98,3 +104,90 @@ $('#after822').on('click', () => {
 $('#drops').on('click', () => {
 	showMarkers('drops');
 });
+
+function showRain(){
+	var startDate = '2018-08-23 00:00:00';
+	var endDate = '2018-08-28 23:59:59';
+	var zipName = '全選';
+
+	var zipRain = {};
+	var maxRain = Number.MIN_SAFE_INTEGER;
+	var minRain = Number.MAX_SAFE_INTEGER;
+
+	mapData.eachLayer(layer => {
+		var stationData = zipToStation[layer.feature.properties.T_Name];
+		if(stationData){
+			$.getJSON('./Mapping/' + stationData + '.json', rain => {
+				var count = 0;
+				var sum = 0;
+				var rainChart = [];
+				var dateChart = [];
+				var colorsForChart = [];
+				Object.keys(rain).forEach(hour => {
+					if(moment(hour).unix() >= moment(startDate).unix() && moment(hour).unix() <= moment(endDate).unix()){
+						count++;
+						sum += parseInt(rain[hour], 10);
+						if(zipName === layer.feature.properties.T_Name){
+							rainChart.push(parseInt(rain[hour], 10));
+							dateChart.push(hour);
+							colorsForChart.push('#ff4500');
+						}
+					}
+				});
+				if(zipName !== '全選' && dateChart.length){
+					if(chart) chart.destroy();
+					chart = new Chart($('#chart'), {
+						type: 'bar',
+						data: {
+							labels: dateChart,
+							datasets: [{
+								label: layer.feature.properties.T_Name + '日雨量',
+								data: rainChart,
+								backgroundColor: colorsForChart
+							}]
+						},
+						options: {
+							maintainAspectRatio: false
+						}
+					});
+				}
+
+				var avgRain = sum / count;
+				zipRain[layer.feature.properties.T_Name] = avgRain;
+				if(avgRain > maxRain) maxRain = avgRain;
+				if(avgRain < minRain) minRain = avgRain;
+				// console.log('loading rain:' + Object.keys(zipRain).length + '/' + 36);
+				if(Object.keys(zipRain).length === 36){
+					mapData.eachLayer(layer => {
+						var zip = layer.feature.properties.T_Name;
+						var scale = chroma.scale(['white', '#D00000']);
+						var color = scale((zipRain[zip] - 1) / 400).hex();
+						layer.setStyle({
+							fillColor: color,
+							fillOpacity: 0.7,
+						});
+					});
+
+					if(zipName === '全選'){
+						if(chart) chart.destroy();
+
+						chart = new Chart($('#chart'), {
+							type: 'bar',
+							data: {
+								labels: Object.keys(zipRain),
+								datasets: [{
+									label: '高雄市各地區 8/23~8/28 平均日雨量',
+									data: Object.values(zipRain),
+									backgroundColor: Object.values(zipRain).map(x => '#FF4500')
+								}]
+							},
+							options: {
+								maintainAspectRatio: false
+							}
+						});
+					}
+				}
+			});
+		}
+	});
+}
