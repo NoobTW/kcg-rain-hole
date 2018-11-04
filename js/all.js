@@ -210,7 +210,6 @@ $('#roads').on('click', () => {
 		$('#roads span').removeClass('active');
 	}
 	Array.from(markersAll.roads).forEach(m => {
-		console.log(m)
 		if(isOnMap.roads){
 			m.addTo(map);
 		}else{
