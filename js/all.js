@@ -5,6 +5,12 @@ var zipToStation = {}; // 行政區與測站對應資料
 var chart;
 var mapCenter = [22.9185024, 120.5786888];
 var zipCenter = []; // 行政區中心
+var markersAll = {
+	roads: [],
+};
+var isOnMap = {
+	roads: false,
+}
 
 // 宣告 map
 map = L.map('map').setView(mapCenter, 9);
@@ -48,6 +54,22 @@ $.getJSON('./Mapping/regMap.json', (r) => {
 // 讀取各行政區中心
 $.getJSON('./js/center.json', (r) => {
 	zipCenter = r;
+});
+
+// 讀取刨路資料
+$.getJSON('./js/road.json', r => {
+	Array.from(r).forEach(m => {
+		if(parseFloat(m.start_lat) && parseFloat(m.start_lng) && parseFloat(m.end_lat) && parseFloat(m.end_lng)){
+			var startPoint = new L.LatLng(m.start_lat, m.start_lng);
+			var endPoint = new L.LatLng(m.end_lat, m.end_lng);
+			var polyLine = new L.polyline([startPoint, endPoint], {
+				color: '#6200EE',
+				weight: 10,
+				opacity: 0.8,
+			});
+			markersAll.roads.push(polyLine);
+		}
+	});
 });
 
 // 顯示坑洞 marker
@@ -177,4 +199,22 @@ $('#go').on('click', () => {
 	showMarker();
 	showRain();
 	showCenter();
+});
+
+
+$('#roads').on('click', () => {
+	isOnMap.roads = !isOnMap.roads;
+	if(isOnMap.roads){
+		$('#roads span').addClass('active');
+	}else{
+		$('#roads span').removeClass('active');
+	}
+	Array.from(markersAll.roads).forEach(m => {
+		console.log(m)
+		if(isOnMap.roads){
+			m.addTo(map);
+		}else{
+			map.removeLayer(m);
+		}
+	});
 });

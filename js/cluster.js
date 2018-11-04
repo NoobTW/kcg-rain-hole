@@ -3,11 +3,13 @@ var markersAll = {
 	before822: [],
 	after822: [],
 	drops: [],
+	roads: [],
 };
 var isOnMap = {
 	before822: false,
 	after822: false,
 	drops: false,
+	roads: false,
 }
 var mapData;
 var mapCenter = [22.6185024, 120.4086888];
@@ -67,7 +69,22 @@ $.getJSON('./js/2018_drop.json', r => {
 		});
 		markersAll.drops.push(marker);
 	});
-})
+});
+
+$.getJSON('./js/road.json', r => {
+	Array.from(r).forEach(m => {
+		if(parseFloat(m.start_lat) && parseFloat(m.start_lng) && parseFloat(m.end_lat) && parseFloat(m.end_lng)){
+			var startPoint = new L.LatLng(m.start_lat, m.start_lng);
+			var endPoint = new L.LatLng(m.end_lat, m.end_lng);
+			var polyLine = new L.polyline([startPoint, endPoint], {
+				color: '#6200EE',
+				weight: 10,
+				opacity: 0.8,
+			});
+			markersAll.roads.push(polyLine);
+		}
+	});
+});
 
 
 function showMarkers(markers){
@@ -103,6 +120,22 @@ $('#after822').on('click', () => {
 
 $('#drops').on('click', () => {
 	showMarkers('drops');
+});
+
+$('#roads').on('click', () => {
+	isOnMap.roads = !isOnMap.roads;
+	if(isOnMap.roads){
+		$('#roads span').addClass('active');
+	}else{
+		$('#roads span').removeClass('active');
+	}
+	Array.from(markersAll.roads).forEach(m => {
+		if(isOnMap.roads){
+			m.addTo(map);
+		}else{
+			map.removeLayer(m);
+		}
+	});
 });
 
 function showRain(){

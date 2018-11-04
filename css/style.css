@@ -98,6 +98,10 @@ span.label{
 	background: rgba(255, 0, 0, 0.8);
 }
 
+#roads span.active{
+	background: #6200EE;
+}
+
 h1{
 	display: inline-block;
 	font-size: 1.2rem;
