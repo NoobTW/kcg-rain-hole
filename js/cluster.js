@@ -21,7 +21,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 18,
 }).addTo(map);
 
-$.getJSON('https://1999.noob.tw/data/kaohsiung.json', (r) => {
+$.getJSON('./js/kaohsiung.json', (r) => {
+	console.log('aaa');
 	mapData = L.geoJSON(r, {color: '#333', weight: 0.7}).addTo(map);
 	if(mapData && zipToStation) showRain();
 });

@@ -40,7 +40,8 @@ $.getJSON('./js/final.json', (data) => {
 });
 
 // 讀取行政區邊界
-$.getJSON('https://1999.noob.tw/data/kaohsiung.json', (r) => {
+$.getJSON('./js/kaohsiung.json', (r) => {
+	console.log(r);
 	mapData = L.geoJSON(r, {color: '#333', weight: 0.7}).addTo(map);
 	if(mapData && zipToStation) showRain();
 });
@@ -53,6 +54,7 @@ $.getJSON('./Mapping/regMap.json', (r) => {
 
 // 讀取各行政區中心
 $.getJSON('./js/center.json', (r) => {
+	console.log(r);
 	zipCenter = r;
 });
 
